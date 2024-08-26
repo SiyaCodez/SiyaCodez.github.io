@@ -583,6 +583,104 @@ header .siya-row.header-wrap {
   );
 }
 
+/*My Blog Style*/
+#blog {
+  background: rgb(73, 111, 93);
+  background: linear-gradient(
+    156deg,
+    rgba(73, 111, 93, 1) 0%,
+    rgba(37, 41, 28, 1) 41%
+  );
+  padding: 3rem 0;
+}
+#blog h2 {
+  color: var(--text-color2);
+  text-align: center;
+}
+#blog .blogpost {
+  width: 60%;
+  margin: 0 auto;
+}
+#blog .blogpost h3 {
+  color: var(--text-color2);
+  font-size: 2rem;
+  font-weight: 800;
+}
+#blog .blogpost p {
+  color: var(--text-color2);
+  font-size: 1rem;
+}
+
+#blog .post img {
+  width: 100%;
+  border-radius: 20px;
+}
+#blog .post a {
+  background-color: var(--text-color3);
+  color: var(--text-color2);
+  padding: 5px 10px 10px 5px;
+  margin-top: 5px;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.blog-box {
+  width: 310px;
+  background-color: var(--text-color3);
+  border: 1px solid var(--text-color3);
+  margin: 20px;
+}
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.blog-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span {
+  color: var(--text-color2);
+  font-size: 0.9rem;
+}
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+.blog-text .blog-title:hover {
+  color: var(--text-color2);
+  transition: all ease 0.5s;
+}
+.blog-text p {
+  color: var(--text-color2);
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+.blog-text a {
+  color: var(--text-color2);
+}
+.blog-text a:hover {
+  color: var(--text-color);
+  transition: all ease o, 5s;
+}
+
 /* Testimonials Section Style */
 
 #testimonials {
@@ -1010,7 +1108,11 @@ header.header-sticky .brand-name a {
   .portfolio-nav-item:last-child {
     margin-top: 10px;
   }
-
+  /* My Blog*/
+  .blog-box {
+    flex-direction: column;
+    width: 300px;
+  }
   /* Contact Section */
   .message-form .half-width {
     flex-basis: 100%;
@@ -1025,5 +1127,10 @@ header.header-sticky .brand-name a {
   .contact-row .right {
     flex-basis: 100%;
     margin: 0px;
+  }
+  /*My Blog*/
+  .blog-box {
+    flex-direction: column;
+    width: 70%;
   }
 }
