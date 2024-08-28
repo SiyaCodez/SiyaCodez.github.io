@@ -684,6 +684,11 @@ header .siya-row.header-wrap {
 .post a {
   margin: 50px 0 50px 0;
 }
+.post .supp p{
+  font-size: 0.4rem;
+  font-style: italic;
+}
+
 /* Testimonials Section Style */
 
 #testimonials {
