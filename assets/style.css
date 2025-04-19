@@ -198,11 +198,10 @@ header .siya-row.header-wrap {
   z-index: 2;
 }
 .hero-image .home-image::before {
-  background: linear-gradient(145deg, #f0f0f0), #ebebeb;
   border-radius: 6px;
   bottom: 0;
   box-shadow: 10px 10px 19px #f4f4f4, -10px -10px -19px #fefefe;
-  content: "";
+  content: none;
   height: calc(100% - 130px);
   left: 50%;
   position: absolute;
