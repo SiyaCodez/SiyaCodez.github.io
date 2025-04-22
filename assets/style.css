@@ -69,12 +69,8 @@ header {
   right: 0;
   z-index: 11;
   transition: 0.8s;
-  background: rgb(73, 111, 93);
-  background: linear-gradient(
-    156deg,
-    rgba(73, 111, 93, 1) 0%,
-    rgba(37, 41, 28, 1) 85%
-  );
+  background: #000000;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(66, 65, 65, 1) 100%);
 }
 header .siya-row.header-wrap {
   justify-content: space-between;
@@ -130,12 +126,8 @@ header .siya-row.header-wrap {
 .hero-section {
   position: relative;
   padding: 100px 0 70px 0;
-  background: rgb(73, 111, 93);
-  background: linear-gradient(
-    146deg,
-    rgba(73, 111, 93, 1) 0%,
-    rgba(37, 41, 28, 1) 50%
-  );
+  background: #000000;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(66, 65, 65, 1) 100%);
 }
 .hero-content {
   align-items: center !important;
