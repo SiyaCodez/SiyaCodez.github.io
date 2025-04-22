@@ -53,7 +53,7 @@ h6 {
 .siya-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
 }
 .siya-row {
   display: flex;
@@ -129,7 +129,7 @@ header .siya-row.header-wrap {
 /************* Message */
 .hero-section {
   position: relative;
-  padding: 150px 0 50px 0;
+  padding: 100px 0 70px 0;
   background: rgb(73, 111, 93);
   background: linear-gradient(
     146deg,
