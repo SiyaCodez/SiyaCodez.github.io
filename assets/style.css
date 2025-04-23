@@ -52,7 +52,7 @@ h6 {
 /* Wrapper */
 .siya-container {
   max-width: 1140px;
-  margin: 0 25;
+  margin: 0 auto;
   padding: 0 0px;
 }
 .siya-row {
