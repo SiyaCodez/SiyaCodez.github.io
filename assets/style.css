@@ -52,7 +52,7 @@ h6 {
 /* Wrapper */
 .siya-container {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0 25;
   padding: 0 0px;
 }
 .siya-row {
@@ -1219,8 +1219,8 @@ header.header-sticky .brand-name a {
 
   /* Hero Section */
   .hero-content {
-    margin: 0 -15px;
-    padding: 0 30px;
+     margin: 0 -15px;
+     padding: 0 40px
   }
   .hero-image {
     height: auto;
@@ -1237,6 +1237,7 @@ header.header-sticky .brand-name a {
 
   /* Expertise Section */
   .expertise-overview {
+    
     width: 100%;
   }
   .detail-expertise {
