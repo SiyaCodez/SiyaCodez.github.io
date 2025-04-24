@@ -4,6 +4,8 @@ html {
 }
 body {
   margin: 0;
+  padding:0;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -52,8 +54,8 @@ h6 {
 /* Wrapper */
 .siya-container {
   max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 0px;
+  margin: 0 10px;
+  padding: 0 15px;
 }
 .siya-row {
   display: flex;
