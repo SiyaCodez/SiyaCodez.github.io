@@ -1222,7 +1222,7 @@ header.header-sticky .brand-name a {
   /* Hero Section */
   .hero-content {
      margin: 0 -15px;
-     padding: 0 0px
+     padding: 0 15px
   }
   .hero-image {
     height: auto;
