@@ -61,23 +61,31 @@ function stickyElement(e) {
 window.addEventListener("scroll", stickyElement);
 
 // Testimonials slider
-$("#slider").owlCarousel({
-  loop: true,
-  margin: 15,
-  nav: false,
-  autoplay: true,
-  responsive: {
-    0: {
-      items: 1,
+  const swiper = new Swiper("#testimonialSwiper", {
+    loop: true,
+    grabCursor: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
-    600: {
-      items: 2,
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
-    1000: {
-      items: 3,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
     },
-  },
-});
+  });
+
+
 //js for fixed header
 
 function stickyElement(e) {
