@@ -43,7 +43,7 @@ filterContainer.addEventListener("click", (e) => {
   }
 });
 
-//portfolio-filter
+//Sticky Header
 
 function stickyElement(e) {
   var header = document.querySelector("#slide-carousel");
