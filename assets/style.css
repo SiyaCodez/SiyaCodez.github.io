@@ -497,6 +497,11 @@ ul.socials {
   text-align: center;
   margin-bottom: -20px;
 }
+.disclaimer p{
+ font-size: 0.7rem;
+ text-align: center;
+ margin: 5px 0 5px 0;
+}
 .portfolio-filter-nav {
   margin: 4rem 0;
   text-align: center;
