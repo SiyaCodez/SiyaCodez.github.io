@@ -497,10 +497,16 @@ ul.socials {
   text-align: center;
   margin-bottom: -20px;
 }
-.disclaimer p{
- font-size: 0.7rem;
- text-align: center;
- margin: 5px 0 5px 0;
+.disclaimer {
+  text-align: center; 
+  font-size: 0.7rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-top: 20px; 
+}
+
+.disclaimer em {
+  font-style: italic; 
 }
 .portfolio-filter-nav {
   margin: 4rem 0;
