@@ -762,9 +762,13 @@ ul.socials {
   color: var(--text-color2);
   font-size: 1rem;
 }
-.date {
+.blog-date {
   color: var(--text-color);
   font-size: 0.8rem;
+}
+.blog-desc {
+   color: var(--text-color2);
+  font-size: 1rem;
 }
 .blog-box .blog-card:hover {
   transform: scale(1.04);
