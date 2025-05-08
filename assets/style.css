@@ -758,10 +758,10 @@ ul.socials {
   transition: all ease 0.5s;
 }
 
-.content p {
+/* .content p {
   color: var(--text-color2);
   font-size: 1rem;
-}
+} */
 .blog-date {
   color: var(--text-color);
   font-size: 0.8rem;
