@@ -475,6 +475,7 @@ ul.socials {
 }
 .sswiper-slide p {
   color: var(--text-color);
+  font-size: 16px;
 }
 .services-sswiper {
   margin: 1rem 0 1rem 0;
