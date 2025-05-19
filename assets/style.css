@@ -386,7 +386,6 @@ ul.socials {
   display: block;
   color: #a5a4a4;
 }
-
 .skills-title .list_inner p {
   display: inline-block;
 }
@@ -417,8 +416,7 @@ ul.socials {
   background: linear-gradient(
     156deg,
     rgba(73, 111, 93, 1) 0%,
-    rgba(37, 41, 28, 1) 41%
-  );
+    rgba(37, 41, 28, 1) 41% );
   padding: 3rem 0;
 }
 #service h2 {
@@ -619,7 +617,7 @@ ul.socials {
 .btn:hover{
   background-color: var(--bg-color2);
   border-color: var(--text-color3);
-  color: var(--text-color);
+  color: transparent;
 }
 
 /* .portfolio-item-content {
