@@ -849,6 +849,10 @@ aside h3 {
 }
 aside a {
   line-height: 1.7;
+  colour: var(--text-color);
+}
+aside a:hover{
+colour: var(--text-color3);
 }
 aside .widget-content {
   display: flex;
@@ -876,7 +880,7 @@ aside .categories-list .widget-content {
   gap: 8px;
 }
 aside .categories-list .label {
-  color: var(--text-color);
+  color: var(--text-color2);
   font-size: 13px;
 }
 
