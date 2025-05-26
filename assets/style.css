@@ -774,14 +774,14 @@ ul.socials {
   box-shadow: 0 3px 80px rgba(0, 0, 0, 0.1);
 }
 .labels a {
-  color: var(--text-color3);
+  color: var(--text-color2);
   font-weight: 500;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 .label {
-  background: var(--bg-color);
+  background: var(--text-color3);
   padding: 3px 6px;
   border-radius: 4px;
 }
