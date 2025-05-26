@@ -781,7 +781,7 @@ ul.socials {
   letter-spacing: 2px;
 }
 .label {
-  background: var(--text-color3);
+  background: var(--text-color);
   padding: 3px 6px;
   border-radius: 4px;
 }
@@ -839,7 +839,7 @@ aside {
   gap: 60px;
 }
 aside h3 {
-  background-color: var(--text-color3);
+  background-color: var(--text-color);
   color: var(--text-color2);
   padding: 12px 24px;
   text-align: center;
@@ -849,10 +849,10 @@ aside h3 {
 }
 aside a {
   line-height: 1.7;
-  colour: var(--text-color);
+  colour: var(--text-color)!important;
 }
 aside a:hover{
-colour: var(--text-color3);
+colour: var(--text-color3)!important;
 }
 aside .widget-content {
   display: flex;
@@ -880,7 +880,7 @@ aside .categories-list .widget-content {
   gap: 8px;
 }
 aside .categories-list .label {
-  color: var(--text-color2);
+  color: var(--text-color);
   font-size: 13px;
 }
 
