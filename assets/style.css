@@ -767,7 +767,7 @@ ul.socials {
 }
 .blog-desc {
    color: var(--text-color2);
-  font-size: 1rem;
+  font-size: 14.4px;
 }
 .blog-box .blog-card:hover {
   transform: scale(1.04);
