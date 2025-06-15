@@ -976,6 +976,7 @@ aside .categories-list .label {
 }
 
 .content-area h5 {
+  color: var(--text-color3);
   font-size: 15px;
   font-weight: 400;
   margin: 5px 0 10px;
